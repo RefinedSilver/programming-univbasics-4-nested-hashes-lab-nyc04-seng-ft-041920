@@ -125,6 +125,6 @@ def adding_to_dennis
       }
     }
 #
-#programmer_hash = {:dennis_ritchie => {:languages => "Assembly"[1]}}
-programmer_hash[:dennis_ritchie][:languages][1] = Assembly.to_s
+programmer_hash = {:dennis_ritchie => {:languages => "Assembly"}}.to_a
+#programmer_hash[:dennis_ritchie][:languages][1] = Assembly.to_s
 end
